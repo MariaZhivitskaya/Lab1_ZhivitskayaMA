@@ -60,7 +60,7 @@ void SendMessages(void* client_socket)
 			send(it->second, buff, sizeof(buff), 0);
 		}
 
-		Sleep(100);
+		Sleep(1000);
 	}
 }
 
